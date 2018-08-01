@@ -173,7 +173,7 @@ class Entities extends AbstractDb
     {
         $connection = $this->getConnection();
 
-        $tmpFile = '/tmp/' . basename($file);
+        $tmpFile = '/tmp/pimgento/' . basename($file);
 
         if (is_file($tmpFile)) {
             unlink($tmpFile);
